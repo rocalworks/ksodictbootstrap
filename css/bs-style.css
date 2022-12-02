@@ -1,0 +1,23 @@
+.instruction {
+    display: flex;
+    justify-content: center;
+}
+
+#loader-content {
+    width: 250px;
+    text-align: center;
+}
+
+.pagination {
+    display: flex;
+    justify-content: end;
+}
+
+.nav-disabled {
+    pointer-events: none;
+    color: gray;
+}
+
+.nav-disabled li a {
+    color: gray;
+}
